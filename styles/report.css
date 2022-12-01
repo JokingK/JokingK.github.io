@@ -1,0 +1,35 @@
+table{
+    counter-reset: incrementCount;
+    margin-top: 2.5em;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: center;
+}
+
+.counter::before{
+    content: counter(incrementCount);
+    counter-increment: incrementCount;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+    font-size: 11pt;
+    padding: .7em;
+}
+
+td:first-of-type{
+    width: 80px;
+}
+
+th{
+    background-color: #f2a900;
+    color: #2f6bb4;
+    font-size: 12pt;
+}
+

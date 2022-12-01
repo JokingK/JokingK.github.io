@@ -2,6 +2,7 @@ html, body{
     background-color: #F2FBFF;
     height: 1080px;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex{
@@ -19,6 +20,7 @@ html, body{
 #logo-container{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15px;
 }
 
 #logo-container h1{
@@ -32,10 +34,9 @@ nav{
 nav a{
     color: #2f6bb4;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 13pt;
     font-weight: bold;
 }
-
 
 nav{
     margin-right: 40px;
@@ -70,29 +71,6 @@ select, label{
     width: 50%;
 }
 
-table{
-    margin-left: 5px;
-    table-layout: fixed;
-    width: 50%;
-    border-collapse: collapse;
-    border: 2px solid;
-    text-align: center;
-}
-
-th, td {
-    padding: 5px;
-    border: 1px solid;
-    font-family: "Times New Roman", Times, serif;
-}
-
-th{
-    background-color: #f2a900;
-    color: #2f6bb4;
-}
-
-table thead tr th:nth-child(4){
-    width: 18%;
-}
 
 button{
     background-color: #f2a900; 
@@ -118,4 +96,10 @@ footer {
     height: 3.5rem;
     background-color: #F5F2DC;
     text-align: center;
+}
+
+#content-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
