@@ -1,0 +1,23 @@
+#bio-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15em;
+}
+
+h3{
+    color: #2f6bb4;
+}
+
+.bio-section{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.img-container{
+    margin: auto;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
