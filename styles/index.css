@@ -1,0 +1,16 @@
+.flex{
+    margin-bottom: 0;
+}
+#top-content{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 42%;
+    background: #2f6bb4 url(../assets/spotlight.png) no-repeat center;
+    height: 40%;
+}
+
+#top-content h1{
+    font-size: 30pt;
+    color: white;
+}
