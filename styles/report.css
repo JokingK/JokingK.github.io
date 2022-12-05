@@ -15,11 +15,10 @@ table{
 th, td {
     padding: 5px;
     border: 1px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 td{
-    font-size: 11pt;
+    font-size: 12pt;
     padding: .7em;
 }
 
@@ -30,6 +29,6 @@ td:first-of-type{
 th{
     background-color: #f2a900;
     color: #2f6bb4;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
