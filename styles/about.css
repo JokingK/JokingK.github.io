@@ -13,11 +13,17 @@ h3{
     align-items: center;
     text-align: center;
     width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .img-container{
     margin: auto;
-    background-color: red;
     width: 200px;
     height: 200px;
+}
+
+.img-container img{
+    width: inherit;
+    height: inherit;
 }
