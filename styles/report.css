@@ -1,3 +1,10 @@
+#content-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 table{
     counter-reset: incrementCount;
     margin-top: 2.5em;
@@ -31,4 +38,3 @@ th{
     color: #2f6bb4;
     font-size: 14pt;
 }
-

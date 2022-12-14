@@ -1,0 +1,24 @@
+#content-wrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.dropdown{
+    margin-bottom: 20px;
+}
+
+.dropbtn{
+    width: 100%;
+}
+
+.demos {
+    
+    display: none;
+    
+}
+
+.show{
+    display: block;
+    margin: auto;
+}

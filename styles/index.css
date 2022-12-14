@@ -1,3 +1,10 @@
+#content-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .flex{
     margin-bottom: 0;
 }
@@ -58,4 +65,3 @@ article, section{
 .nowrap{
     white-space: nowrap;
 }
-

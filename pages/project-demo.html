@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles/stylesheet.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/demo.css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>Senior Project</title>
+    </head>
+    <body>
+
+        <header class="flex">
+            <a href="index.html"><div id="logo-container"><img id="logo" src="../assets/nyit-logo.png"/></div></a>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="project-demo.html">Project Demo</a>
+                <a href="progress-reports.html">Progress Reports</a>
+                <a href="about-us.html">About Us</a>
+            </nav>
+        </header>
+
+        <div id="content-wrapper">
+            <div class="dropdown">
+                <button onclick=dropDemoOne() class="dropbtn">Demo #1 - Registering</button>
+                <div id="demo-one" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/register.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoTwo() class="dropbtn">Demo #2 - Log In</button>
+                <div id="demo-two" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/signin.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoThree() class="dropbtn">Demo #3 - Home Page</button>
+                <div id="demo-three" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/homepage.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoFour() class="dropbtn">Demo #4 - Creating Posts</button>
+                <div id="demo-four" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/post.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoFive() class="dropbtn">Demo #5 - Events</button>
+                <div id="demo-five" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/events.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoSix() class="dropbtn">Demo #6 - Chats</button>
+                <div id="demo-six" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/chats.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoSeven() class="dropbtn">Demo #7 - Profile</button>
+                <div id="demo-seven" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/profile.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick=dropDemoEight() class="dropbtn">Demo #8 - Sidebar Navigation</button>
+                <div id="demo-eight" class="demos">
+                    <video controls loop>
+                        <source src="../assets/videos/sidenav.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <script src="../js/dropdown.js"></script>
+    </body>
+</html>
